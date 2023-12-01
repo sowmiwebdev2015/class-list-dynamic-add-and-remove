@@ -1,0 +1,39 @@
+#check{
+    display: none;
+}
+.checkBtn{
+    display: none;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 180px;
+}
+@media(max-width:470px){
+    .navLinks{
+        display: none;
+        position: absolute;
+        width: 100%;
+        display: none;
+        margin-top: 120%;
+        margin-left: 10px;
+    }
+    .navLinks li{
+        padding: 10px;
+    }
+    .checkBtn{
+        display: block;
+    }
+    #check:checked ~ .navLinks{
+        display: block;
+    }
+    .navSection{
+        margin-left: 5px;
+        padding: 0 40px 20px;
+    }
+    #btn{
+        margin-top: 400px;
+        margin-left: 120px;
+        padding: 5px 20px;
+    }
+}
+

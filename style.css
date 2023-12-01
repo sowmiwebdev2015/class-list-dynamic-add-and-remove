@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4553502.jpg);
+}
+.navContainer{
+    border-bottom: 1px solid white;
+}
+.navSection{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+}    
+.logo img{
+    width: 100px;
+}
+.navLinks{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navLinks li{
+    list-style-type: none;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+
+}
+#btn{
+    margin-top: 50px;
+    margin-left: 700px;
+    padding: 5px 20px;
+}
+#btn1{
+    padding: 5px 20px;
+}
+
+nav{
+    color: white;
+}
